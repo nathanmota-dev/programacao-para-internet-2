@@ -61,7 +61,7 @@ Siga as etapas abaixo para executar o projeto em sua máquina:
 3. Instale as dependências:
 
    ```sh
-   npm install express nodemon consign knex
+   npm install
    ```
 
 4. Inicie o servidor:
