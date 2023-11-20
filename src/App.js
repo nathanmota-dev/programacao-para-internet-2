@@ -24,12 +24,10 @@ function App() {
   useEffect(() => {
     const fetchHistorico = async () => {
       try {
-
-        // Fazer chamada para recuperar do backend
+        
         const response = await api.get('/names');
         const historicoData = response.data;
-
-        // Atualizar o histórico local no estado do componente
+        
         setHistorico(historicoData);
       } catch (error) {
         console.error('Erro ao recuperar histórico:', error);
