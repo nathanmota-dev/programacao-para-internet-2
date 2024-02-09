@@ -11,7 +11,7 @@ function App() {
   const [nome, setNome] = useState('');
   const [historico, setHistorico] = useState([]);
 
-  const addToHistorico = async (item) => {
+  /*const addToHistorico = async (item) => {
     try {
       const response = await api.post('/names', item);
       const { id } = response.data; // Capturando o ID retornado pela API
@@ -19,7 +19,7 @@ function App() {
     } catch (error) {
       console.error('Erro ao salvar no histórico:', error);
     }
-  };
+  };*/
 
   useEffect(() => {
     const fetchHistorico = async () => {
